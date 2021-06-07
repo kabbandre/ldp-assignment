@@ -38,7 +38,7 @@
 
               <div v-if="list.title === 'Issues'" class="item-entry">
                 <ui-item-entry :list-id="list.id"
-                               placeholder="Add an item"
+                               placeholder="Add an issue"
                                icon="ellipsis-h"
                                @enter="onAddItem"/>
               </div>

@@ -9,12 +9,12 @@ describe('Card.vue', () => {
     const Constructor = Vue.extend(Card)
     const vm = new Constructor({
       propsData: {
-        item: makeItem('Go to the shop', 'Buy milk')
+        item: makeItem('Add a new field', 'Field should be called "Gender"')
       }
     }).$mount()
     expect(text(vm, '.item-title'))
-      .toEqual('Go to the shop')
+      .toEqual('Add a new field')
     expect(text(vm, '.item-description'))
-      .toEqual('Buy milk')
+      .toEqual('Field should be called "Gender"')
   })
 })

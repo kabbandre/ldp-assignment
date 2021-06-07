@@ -9,7 +9,7 @@
       </p>
     </div>
     <div>
-      <board/>
+      <board />
     </div>
   </div>
 </template>
